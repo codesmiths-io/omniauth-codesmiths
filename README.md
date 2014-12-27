@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Omniauth::Formation
 
 TODO: Write a gem description
@@ -29,3 +30,9 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+=======
+omniauth-formation-oauth2
+===========================
+
+Formation Technology OAuth2 Strategy for Omniauth 
+>>>>>>> 854ce89113b61d79087921e1021efeda95fd94ec
