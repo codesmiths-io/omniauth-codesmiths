@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'omniauth/formation/version'
+require 'omniauth/codesmiths/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "omniauth-formation"
-  spec.version       = OmniAuth::Formation::VERSION
+  spec.name          = "omniauth-codesmiths"
+  spec.version       = OmniAuth::Codesmiths::VERSION
   spec.authors       = ["Jimmy Apodaca"]
   spec.email         = ["jimmy@formationtech.com"]
-  spec.summary       = %q{Omniauth OAuth2 Strategy for Formation Tech SSO.}
-  spec.description   = %q{Use to connect application to main Formation Tech
+  spec.summary       = %q{Omniauth OAuth2 Strategy for Codesmiths IO SSO.}
+  spec.description   = %q{Use to connect application to main Codesmiths IO
     authentication server.}
-  spec.homepage      = "https://github.com/formationtech/omniauth-formation-oauth2"
+  spec.homepage      = "https://github.com/formationtech/omniauth-codesmiths"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
