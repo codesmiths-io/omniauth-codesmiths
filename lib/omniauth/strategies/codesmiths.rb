@@ -17,8 +17,10 @@ module OmniAuth
       }
 
       def authorize_params
-        params[:state] = request.params['state'] unless [nil, ''].include?(request.params['state'])
-        session['omniauth.state'] = params[:state] if params['state']
+        super.tap do |params|
+          params[:state] = request.params['state'] unless [nil, ''].include?(request.params['state'])
+          session['omniauth.state'] = params[:state] if params['state']
+        end
       end
 
       # These are called after authentication has succeeded. If
