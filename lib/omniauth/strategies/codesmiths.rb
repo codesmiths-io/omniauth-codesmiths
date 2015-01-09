@@ -16,6 +16,10 @@ module OmniAuth
         :access_token_url => "#{CUSTOM_PROVIDER_URL}/auth/codesmiths/access_token"
       }
 
+      def authorize_params
+        session['omniauth.state'] = params[:state] if params['state']
+      end
+
       # These are called after authentication has succeeded. If
       # possible, you should try to set the UID without making
       # additional calls (if the user id is returned with the token
