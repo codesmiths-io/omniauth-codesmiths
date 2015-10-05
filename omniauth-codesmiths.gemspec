@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "omniauth-codesmiths"
   spec.version       = OmniAuth::Codesmiths::VERSION
   spec.authors       = ["Jimmy Apodaca"]
-  spec.email         = ["jimmy@formationtech.com"]
+  spec.email         = ["jimmy@codesmiths.io"]
   spec.summary       = %q{Omniauth OAuth2 Strategy for Codesmiths IO SSO.}
   spec.description   = %q{Use to connect application to main Codesmiths IO
     authentication server.}
-  spec.homepage      = "https://github.com/formationtech/omniauth-codesmiths"
+  spec.homepage      = "https://github.com/codesmiths-io/omniauth-codesmiths"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
